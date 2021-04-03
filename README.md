@@ -4,7 +4,7 @@
 AWS Lambda(Golang)を用いて、bitflyerのAPIをコールします。
 ビットコインなどの暗号資産の積立購入を行うためのサーバーレスアプリケーションです。
 
-以下のUdemyの講座で使用しているソースコードになります。 
+以下のUdemyの講座で使用しているソースコードになります。<br/>
 https://www.udemy.com/course/bitcoin-lambda-golang/
 
 ## アーキテクチャ
