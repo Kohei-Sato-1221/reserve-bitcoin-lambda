@@ -21,7 +21,7 @@ func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyRespo
 	ticker := <-tickerChan
 	err := <-errChan
 	if err != nil {
-		return getErrorResponse(err.Error()), nil
+		return getErrorResponse(err.Error()), err
 	}
 
 
